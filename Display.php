@@ -18,16 +18,6 @@
     <img src="uitm.jpg" alt="UITM Logo" width="200" height="200">
     <h1>Industrial Training Logbook</h1>
     <br>
-    <?php
-    if (isset($_GET['image'])) {
-        $imagePath = $_GET['image'];
-        echo '<img src="' . $imagePath . '" alt="Student Image" width="200" height="200">';
-    } else {
-        echo '<p>No image available.</p>';
-    }
-
-
-    ?>
     <fieldset>
         <legend>Students Details</legend>
         <?php
